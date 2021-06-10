@@ -1,0 +1,61 @@
+/* Untuk tabelt */
+@media all and (max-width: 1000px) {
+  .product-list {
+    width: 30%;
+  }
+  .promotion-subscribe {
+    display: block;
+  }
+  .text-email {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .email {
+    width: 100%;
+  }
+  .footer-than a {
+    display: none;
+  }
+  .footer-menu a {
+    font-size: 11px;
+  }
+}
+/* Smartphone */
+@media all and (max-width: 670px) {
+  .jumbotron-list {
+    display: none;
+  }
+  .header-bottom {
+    display: inline-block;
+  }
+  .header-sosmed {
+    display: none;
+  }
+  .header-number {
+    width: 50%;
+  }
+  .product-list {
+    width: 46%;
+  }
+  .text-email {
+    font-size: 9px;
+  }
+  .email {
+    display: block;
+  }
+  .footer-menu a {
+    font-size: 10px;
+  }
+  .footer-title {
+    font-size: 8px;
+    margin-top: 25px;
+  }
+  .product-title {
+    font-size: 9px;
+  }
+  .header-logo {
+    float: right;
+    width: 50%;
+  }
+}
